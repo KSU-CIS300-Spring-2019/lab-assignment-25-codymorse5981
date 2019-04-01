@@ -1,5 +1,5 @@
 ﻿/* BinaryTreeNode.ITree.cs
- * Author: Rod Howell
+ * Author: Cody Morse
  * 
  * Note: This file contains only code relevant to drawing the tree.
  * It should not be modified.
@@ -14,10 +14,10 @@ using KansasStateUniversity.TreeViewer2;
 namespace Ksu.Cis300.PriorityQueueLibrary
 {
     /// <summary>
-    /// An immutable binary tree node that can draw itself.
+    /// An immutable leftist tree node that can draw itself.
     /// </summary>
     /// <typeparam name="T">The type of the elements in the tree.</typeparam>
-    public partial class BinaryTreeNode<T> : ITree
+    public partial class LeftistTree<T> : ITree
     {
         /// <summary>
         /// Gets the children of this node.
